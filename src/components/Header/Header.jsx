@@ -4,8 +4,9 @@ import { ShoppingCartIcon } from "@heroicons/react/24/solid";
 
 const Header = () => {
   return (
-    <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-      <div className="relative flex items-center justify-between">
+    <div className="bg-gray-200">
+        <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+      <div className=" flex items-center justify-between">
         <div>
           <Link
             to="/"
@@ -23,7 +24,7 @@ const Header = () => {
           </Link>
         </div>
         <div>
-          <ul className="items-center hidden space-x-8 lg:flex">
+          <ul className="items-center hidden space-x-8 lg:flex font-bold">
             <li>
               <NavLink
               //   to='/'
@@ -174,6 +175,7 @@ const Header = () => {
           )}
         </div> */}
       </div>
+    </div>
     </div>
   );
 };
