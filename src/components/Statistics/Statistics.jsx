@@ -17,14 +17,17 @@ const Statistics = () => {
       ];
 
     return (
-      <div className='grid md:grid-cols-3'>
+      
+      <div>
+        <div className='font-bold text-3xl text-center py-10'>Statistics</div>
+        <div className='grid justify-items-center md:grid-cols-3 '>
         
         <div className=""></div>
-        <div className="">
+        <div className="justify-center">
         <div className=''>
             <PieChart
-             width={500}
-             height={500}
+             width={350}
+             height={400}
             >
                 <Pie
         data={data}
@@ -48,6 +51,7 @@ const Statistics = () => {
         </div>
         <div className=""></div>
         </div>
+      </div>
 
         
     );
