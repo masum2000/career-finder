@@ -17,10 +17,14 @@ const Statistics = () => {
       ];
 
     return (
-        <div>
+      <div className='grid md:grid-cols-3'>
+        
+        <div className=""></div>
+        <div className="">
+        <div className=''>
             <PieChart
-             width={400}
-             height={400}
+             width={500}
+             height={500}
             >
                 <Pie
         data={data}
@@ -41,6 +45,11 @@ const Statistics = () => {
       <Legend></Legend>
             </PieChart>
         </div>
+        </div>
+        <div className=""></div>
+        </div>
+
+        
     );
 };
 

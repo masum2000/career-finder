@@ -1,31 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import JobCategorySingle from "../JobCategorySingle/JobCategorySingle";
 
 const Category = () => {
+  const [jobs, setJobs] = useState([]);
+  useEffect (() => {
+    fetch('jobcategory.json')
+    .then(res => res.json())
+    .then(data => setJobs(data))
+  }, [])
   return (
     <div className="">
-      <div className="">
-        <h1 className=" font-bold text-3xl">Job Category List</h1>
-        <p>
+      <div className=" text-center py-10">
+        <h1 className=" font-bold text-4xl">Job Category List</h1>
+        <p className="py-5">
           Explore thousands of job opportunities with all the information you
           need. Its your future
         </p>
       </div>
-      <div>
-        <div className="card w-96 bg-base-100 shadow-xl">
-          <figure>
-            <img
-              src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-              alt="Shoes"
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
-            </div>
-          </div>
-        </div>
+      <div className="grid md:grid-cols-4  gap-6">
+         {
+          jobs.map(job => <JobCategorySingle
+          job = {job}
+          ></JobCategorySingle>)
+         }
       </div>
     </div>
   );

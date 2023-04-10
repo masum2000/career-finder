@@ -8,11 +8,7 @@ import Feature from './components/Feature/Feature';
 const App = () => {
   return (
     <div>
-          <Header></Header>
-          <Home></Home>
-          <Category></Category>
-          <Feature></Feature>
-          <Outlet></Outlet>
+          
 
     </div>
   );
