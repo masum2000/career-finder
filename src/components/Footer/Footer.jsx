@@ -35,14 +35,14 @@ const Footer = () => {
             </div> */}
             <div class=" w-9/12 mx-auto">
                <div class="grid md:grid-cols-3 mt-10 ">
-                      <div class="col-span-1  text-gray-300 p-10 my-10">
+                      <div class="col-span-1  text-gray-300 py-10 my-10">
                           <h1 className='text-3xl font-bold'>Career Finder</h1>
                            <p className='mt-5'>Taking steps towards achieving your desired profession and working towards your career goals.</p>
                           <div>
                             <img className='mt-5' src="../../../src/assets/Icons/Group9969.png" alt="Icons" />
                            </div>
                       </div>
-                      <div class="grid md:grid-cols-4 sm:grid-cols-2 col-span-2 text-gray-300 gap-6 p-10  md:my-10">
+                      <div class="grid md:grid-cols-4 sm:grid-cols-2 col-span-2 text-gray-300 gap-6 py-10  md:my-10">
                           <div className="space-y-2">
                             <p className='text-2xl font-bold'>Company</p>
                             <p>About Us</p>

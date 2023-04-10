@@ -14,7 +14,7 @@ const Category = () => {
         <h1 className=" font-bold text-4xl">Job Category List</h1>
         <p className="py-5">
           Explore thousands of job opportunities with all the information you
-          need. Its your future
+          need. Its your future.
         </p>
       </div>
       <div className="grid md:grid-cols-4  gap-6">
