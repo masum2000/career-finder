@@ -26,7 +26,7 @@ const JobFeatureSingle = ({feature}) => {
                     <p>{salary}</p>
                     </div>
                 </div>
-                <button className="relative  bg-purple-600 rounded md:p-2 p-1 text-white font-semibold">View Details</button>
+                <button className=" bg-purple-600 rounded md:p-2 p-1 text-white font-semibold">View Details</button>
                 
             </div>
         </div>
