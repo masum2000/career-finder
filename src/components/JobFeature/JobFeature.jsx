@@ -21,7 +21,7 @@ const JobFeature = () => {
                  <p className='py-5'>Explore thousands of job opportunities with all the information you need. Its your future</p>
              </div>
             </div>
-            <div className='grid md:grid-cols-2  gap-6 '>
+            <div className='grid md:grid-cols-2  gap-x-12 '>
                 {
                     displayAllJob.map(feature=> <JobFeatureSingle
                      key={feature.id}

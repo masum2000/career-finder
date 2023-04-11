@@ -1,14 +1,16 @@
 import React from 'react';
 import {MapPinIcon, CurrencyDollarIcon} from '@heroicons/react/24/solid'
+import { Link } from 'react-router-dom';
 
 const JobFeatureSingle = ({feature}) => {
-    console.log(feature);
-    const {company_logo, job_title, company_name, remote_or_onsite, location, fulltime_or_parttime, salary} = feature;
+
+    // console.log(feature);
+    const {company_logo, job_title, company_name, remote_or_onsite, location, fulltime_or_parttime, salary,id} = feature;
     return (
        <div>
          <div>
             
-            <div className=' bg-gray-200 p-10 rounded space-y-5 shadow-xl mb-10 border border-purple-400 cursor-pointer'>
+            <div className=' bg-gray-300 p-10 rounded space-y-5 shadow-xl mb-10 border border-purple-400 cursor-pointer hover:bg-purple-400'>
                 <img src={company_logo} />
                 <h2 className='font-bold text-xl'>{job_title}</h2>
                 <p>{company_name}</p>
@@ -26,7 +28,10 @@ const JobFeatureSingle = ({feature}) => {
                     <p>{salary}</p>
                     </div>
                 </div>
-                <button className=" bg-purple-600 rounded md:p-2 p-1 text-white font-semibold">View Details</button>
+                {/* <Link to={`/${feature.id}`}>
+                <button className=" bg-purple-600 rounded mt-3 md:p-2 p-1 text-white font-semibold">View Details</button>
+                </Link> */}
+                <Link to={`/${feature.id}`}><button className=" bg-purple-600 rounded md:p-3 p-1 mt-4 text-white font-semibold">View Details</button></Link>
                 
             </div>
         </div>

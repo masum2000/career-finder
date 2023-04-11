@@ -8,6 +8,7 @@ import Statistics from './components/Statistics/Statistics'
 import Home from './components/Home/Home'
 import Banner from './components/Banner/Banner'
 import ErrorPage from './components/ErrorPage/ErrorPage'
+import JobDetails from './components/JobDetails/JobDetails'
 
 
 
@@ -19,9 +20,14 @@ const router = createBrowserRouter([
     children:[
       {
         path: '/',
-      element: <Banner></Banner>  , 
-      loader: () => fetch ('jobfeature.json')
-     },
+        element: <Banner></Banner>  , 
+        loader: () => fetch ('/jobfeature.json')
+      },
+      {
+         path: '/:id',
+         element: <JobDetails></JobDetails>,
+         loader: () => fetch ('/jobfeature.json')
+      },
       {
         path: 'blog',
         element: <Blog></Blog>,
