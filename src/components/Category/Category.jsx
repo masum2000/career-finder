@@ -17,9 +17,10 @@ const Category = () => {
           need. Its your future.
         </p>
       </div>
-      <div className="grid md:grid-cols-4  gap-6">
+      <div className="grid md:grid-cols-4  gap-6  ">
          {
           jobs.map(job => <JobCategorySingle
+          key={job.id}
           job = {job}
           ></JobCategorySingle>)
          }

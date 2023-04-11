@@ -5,13 +5,13 @@ import { ShoppingCartIcon } from "@heroicons/react/24/solid";
 const Header = () => {
   return (
     <div>
-      <div className="navbar w-9/12 mx-auto py-5 ">
+      <div className="navbar md:w-9/12 mx-auto py-5 ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-8 w-8"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -24,7 +24,7 @@ const Header = () => {
                 />
               </svg>
             </label>
-            <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 gap-4 ">
+            <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded w-52 gap-4 ">
               <Link to='/'><li>Home</li></Link>
               <Link to='/blog'><li>Blog</li></Link>
               <Link to='/appliedjob'><li>Applied Jobs</li></Link>
@@ -35,7 +35,7 @@ const Header = () => {
           to='/'
           aria-label='CareerFinder'
           title="CareerFinder">
-          <a className="text-xl md:text-3xl font-bold text-indigo-500 cursor-pointer">Career Finder</a>
+          <p className=" md:text-4xl text-lg font-bold text-purple-600 cursor-pointer">Career Finder</p>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -47,7 +47,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <button className=" bg-indigo-500 text-white p-3 rounded-md">Start Applying</button>
+          <button className=" bg-purple-600 text-white md:p-3 p-1 font-semibold rounded">Start Applying</button>
         </div>
       </div>
     </div>

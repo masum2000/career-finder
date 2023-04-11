@@ -1,18 +1,18 @@
 import React from 'react';
 import { PieChart, Pie, Sector, Cell, ResponsiveContainer, Tooltip, Legend } from 'recharts';
 
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884d8', '#82ca9d', '#ffc658'];
+const COLORS = ['#0088FE', '#00C49F', '#1E1E1E', '#FF8042', '#8884d8', '#D394E9', '#ffc658'];
 
 const Statistics = () => {
 
 
     const data = [
         { name: 'Assignment-1', value: 60 },
-        { name: 'Assignment-2', value: 56 },
-        { name: 'Assignment-3', value: 55},
+        { name: 'Assignment-2', value: 59 },
+        { name: 'Assignment-3', value: 60},
         { name: 'Assignment-4', value: 59},
-        { name: 'Assignment-5', value: 58},
-        { name: 'Assignment-6', value: 57},
+        { name: 'Assignment-5', value: 60},
+        { name: 'Assignment-6', value: 59},
         { name: 'Assignment-7', value: 60},
       ];
 

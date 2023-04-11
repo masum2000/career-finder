@@ -1,0 +1,115 @@
+[
+        
+    {
+        "id": 1,
+        "company_logo": "/src/assets/All Images/google-1-1 1.png",
+        "job_title": "Technical Database Engineer",
+        "company_name": "Google",
+        "remote_or_onsite": "Remote",
+        "location": "San Francisco, CA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$100,000 - $120,000",
+        "job_description": "We are seeking a talented Technical Database Engineer to join our team...",
+        "job_responsibility": "- Design, develop, and maintain software applications...",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field",
+        "experiences": "3+ years of professional software development experience",
+        "contact_information": {
+          "phone": "123-456-7890",
+          "email": "jobs@abcinc.com"
+        }
+    },
+    {
+        "id": 2,
+        "company_logo": "/src/assets/All Images/netflix-4 1.png",
+        "job_title": "Senior Product Designer",
+        "company_name": "NetFlix",
+        "remote_or_onsite": "Onsite",
+        "location": "Canada",
+        "fulltime_or_parttime": "Part-time",
+        "salary": "$100,000 - $120,000",
+        "job_description": "We are seeking a talented Senior Product Designer to join our team...",
+        "job_responsibility": "- Design, develop, and maintain software applications...",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field",
+        "experiences": "2+ years of professional software development experience",
+        "contact_information": {
+          "phone": "123-456-7890",
+          "email": "jobs@abcinc.com"
+        }
+    },
+    {
+        "id": 3,
+        "company_logo": "/src/assets/All Images/Group 10021.png",
+        "job_title": "Software Engineer",
+        "company_name": "Amazon",
+        "remote_or_onsite": "Remote",
+        "location": "Australia",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$100,000 - $120,000",
+        "job_description": "We are seeking a talented Software Engineer to join our team...",
+        "job_responsibility": "- Design, develop, and maintain software applications...",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field",
+        "experiences": "4+ years of professional software development experience",
+        "contact_information": {
+          "phone": "123-456-7890",
+          "email": "jobs@amazon.com"
+        }
+    },
+    
+    
+        {
+            "id": 4,
+            "company_logo": "/src/assets/Icons/Group9969.png",
+            "job_title": "Software Engineer",
+            "company_name": "Facebook",
+            "remote_or_onsite": "Onsite",
+            "location": "San Francisco, CA",
+            "fulltime_or_parttime": "Part-time",
+            "salary": "$100,000 - $120,000",
+            "job_description": "We are seeking a talented Software Engineer to join our team...",
+            "job_responsibility": "- Design, develop, and maintain software applications...",
+            "educational_requirements": "Bachelor's degree in Computer Science or related field",
+            "experiences": "5+ years of professional software development experience",
+            "contact_information": {
+              "phone": "123-456-7890",
+              "email": "jobs@fb.com"
+            }
+        },
+        {
+            "id": 5,
+            "company_logo": "/src/assets/All Images/tesla-9 1.png",
+            "job_title": "Marketing Manager",
+            "company_name": "TESLA",
+            "remote_or_onsite": "Onsite",
+            "location": "New York, NY",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$80,000 - $100,000",
+            "job_description": "We are looking for an experienced Marketing Manager to join our team...",
+            "job_responsibility": "- Develop and implement marketing strategies...",
+            "educational_requirements": "Bachelor's degree in Marketing or related field",
+            "experiences": "3+ years of marketing experience, including 2+ years in a managerial role",
+            "contact_information": {
+              "phone": "111-222-3333",
+              "email": "hr@tesla.com"
+            }
+          },
+          {
+            "id": 6,
+            "company_logo": "/src/assets/All Images/google-1-1 1.png",
+            "job_title": "Data Scientist",
+            "company_name": "BrainStation 23",
+            "remote_or_onsite": "Remote",
+            "location": "Dhaka, BD",
+            "fulltime_or_parttime": "Part-time",
+            "salary": "$90,000 - $110,000",
+            "job_description": "We are seeking a skilled Data Scientist to join our team...",
+            "job_responsibility": "- Design and implement data models...",
+            "educational_requirements": "Master's or PhD in Computer Science, Statistics, or related field",
+            "experiences": "1+ years of experience in data science or related field",
+            "contact_information": {
+              "phone": "555-666-7777",
+              "email": "ting@rainStation23.com"
+            }
+          }
+          
+    
+]

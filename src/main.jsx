@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Blog from './components/Blog/Blog'
@@ -11,6 +10,7 @@ import Banner from './components/Banner/Banner'
 import ErrorPage from './components/ErrorPage/ErrorPage'
 
 
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -19,7 +19,8 @@ const router = createBrowserRouter([
     children:[
       {
         path: '/',
-      element: <Banner></Banner>     
+      element: <Banner></Banner>  , 
+      loader: () => fetch ('jobfeature.json')
      },
       {
         path: 'blog',
@@ -32,8 +33,13 @@ const router = createBrowserRouter([
       {
         path: 'statistics',
         element: <Statistics></Statistics>,
-      }
+      },
+
     ]
+  },
+  {
+    path: '*',
+    element: <ErrorPage></ErrorPage>
   }
 
 ])
