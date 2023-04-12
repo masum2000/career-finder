@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Blog from './components/Blog/Blog'
-import AppliedJobs from './components/AppliedJobs/AppliedJobs'
 import Statistics from './components/Statistics/Statistics'
 import Home from './components/Home/Home'
 import Banner from './components/Banner/Banner'
 import ErrorPage from './components/ErrorPage/ErrorPage'
 import JobDetails from './components/JobDetails/JobDetails'
+import AppliedJobs from './components/AppliedJobs/AppliedJobs'
 
 
 
@@ -33,20 +33,21 @@ const router = createBrowserRouter([
         element: <Blog></Blog>,
       },
       {
-        path:'appliedjob',
-        element: <AppliedJobs></AppliedJobs>,
+        path:'appliedJobs',
+        element: <AppliedJobs></AppliedJobs>
       },
       {
         path: 'statistics',
         element: <Statistics></Statistics>,
       },
+      {
+        path: '*',
+        element: <ErrorPage></ErrorPage>
+      }
 
     ]
-  },
-  {
-    path: '*',
-    element: <ErrorPage></ErrorPage>
   }
+  
 
 ])
 

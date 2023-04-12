@@ -1,11 +1,24 @@
-import React from 'react';
-import { useLoaderData, useParams } from 'react-router-dom';
-import {CurrencyDollarIcon, CalendarDaysIcon, PhoneIcon, InboxIcon, EnvelopeIcon, MapIcon, MapPinIcon} from '@heroicons/react/24/solid'
+import React, { useState } from 'react';
+import { Link, useLoaderData, useParams } from 'react-router-dom';
+import {CurrencyDollarIcon, CalendarDaysIcon, PhoneIcon,  EnvelopeIcon,  MapPinIcon} from '@heroicons/react/24/solid'
+import { addToJob } from '../../Utils/utils';
+
 
 const JobDetails = () => {
     const { id } = useParams(); 
-    const jobFeature = useLoaderData();
-    const feature = jobFeature.find((feature) => feature.id === parseInt(id)); 
+    const [appliedJobs,setAppliedJobs]=useState([])
+    const jobFeatures = useLoaderData();
+    const feature = jobFeatures.find((feature) => feature.id === parseInt(id)); 
+
+    const handleApply = () => {
+        addToJob(feature);
+        
+        // console.log(feature);
+      }
+    
+    
+      
+
 
     return (
         <div className=" md:w-9/12 mx-auto ">
@@ -55,13 +68,12 @@ const JobDetails = () => {
 
                      </div>
                      </div>
-                        <button className=" w-full text-white py-3 rounded mt-5 font-semibold bg-purple-600 ">Apply Now</button>
+                       
+                           <button className=" w-full text-white py-3 rounded mt-5 font-semibold bg-purple-600  " onClick={()=>handleApply()}>Apply Now</button>
+    
                  </div>
                      
             </div>
-                
-            
-            
             
         </div>
     );

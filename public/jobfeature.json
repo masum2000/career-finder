@@ -15,11 +15,11 @@
         "experiences": "3+ years of professional software development experience",
         "contact_information": {
           "phone": "123-456-7890",
-          "email": "jobs@abcinc.com"
+          "email": "jobs@google.com"
         }
     },
     {
-        "id": 2,
+        "id":2,
         "company_logo": "/src/assets/All Images/netflix-4 1.png",
         "job_title": "Senior Product Designer",
         "company_name": "NetFlix",
@@ -33,7 +33,7 @@
         "experiences": "2+ years of professional software development experience",
         "contact_information": {
           "phone": "123-456-7890",
-          "email": "jobs@abcinc.com"
+          "email": "jobs@netflix.com"
         }
     },
     {
@@ -71,7 +71,7 @@
             "experiences": "5+ years of professional software development experience",
             "contact_information": {
               "phone": "123-456-7890",
-              "email": "jobs@fb.com"
+              "email": "jobs@facebook.com"
             }
         },
         {
@@ -107,7 +107,7 @@
             "experiences": "1+ years of experience in data science or related field",
             "contact_information": {
               "phone": "555-666-7777",
-              "email": "ting@rainStation23.com"
+              "email": "brainStation23@.com"
             }
           }
           

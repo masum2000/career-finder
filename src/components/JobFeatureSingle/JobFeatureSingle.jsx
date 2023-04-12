@@ -11,7 +11,7 @@ const JobFeatureSingle = ({feature}) => {
          <div>
             
             <div className=' bg-gray-300 p-10 rounded space-y-5 shadow-xl mb-10 border border-purple-400 cursor-pointer hover:bg-purple-400'>
-                <img src={company_logo} />
+                <img className='' src={company_logo} />
                 <h2 className='font-bold text-xl'>{job_title}</h2>
                 <p>{company_name}</p>
                 <div className=''>
