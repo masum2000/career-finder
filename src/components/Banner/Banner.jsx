@@ -1,5 +1,4 @@
 import React from 'react';
-import businessman from '../../assets/businessman.jpg'
 import Category from '../Category/Category';
 import JobFeature from '../JobFeature/JobFeature';
 
@@ -13,7 +12,7 @@ const Banner = () => {
                     <button className="relative  bg-purple-600 rounded md:p-3 p-1 text-white font-semibold">Get Started</button>
                 </div>
                 <div className='col-span-2 md:col-span-2'>
-                    <img className='' src={businessman}></img>
+                    <img className='' src="https://i.ibb.co/bsbFTBK/businessman.png"></img>
                 </div>
             </div>
             <Category></Category>

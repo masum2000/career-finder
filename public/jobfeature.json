@@ -2,7 +2,7 @@
         
     {
         "id": 1,
-        "company_logo": "/src/assets/All Images/google-1-1 1.png",
+        "company_logo": "https://i.ibb.co/qpFgvKv/google-1-1-1.png",
         "job_title": "Technical Database Engineer",
         "company_name": "Google",
         "remote_or_onsite": "Remote",
@@ -20,7 +20,7 @@
     },
     {
         "id":2,
-        "company_logo": "/src/assets/All Images/netflix-4 1.png",
+        "company_logo": "https://i.ibb.co/y0kB8p3/netflix-4-1.png",
         "job_title": "Senior Product Designer",
         "company_name": "NetFlix",
         "remote_or_onsite": "Onsite",
@@ -38,7 +38,7 @@
     },
     {
         "id": 3,
-        "company_logo": "/src/assets/All Images/Group 10021.png",
+        "company_logo": "https://i.ibb.co/WfNKT39/Group-10021.png",
         "job_title": "Software Engineer",
         "company_name": "Amazon",
         "remote_or_onsite": "Remote",
@@ -58,9 +58,9 @@
     
         {
             "id": 4,
-            "company_logo": "/src/assets/Icons/Group9969.png",
+            "company_logo": "https://i.ibb.co/CsbLzLQ/Group9969.png",
             "job_title": "Software Engineer",
-            "company_name": "Facebook",
+            "company_name": "Facebook/Twitter",
             "remote_or_onsite": "Onsite",
             "location": "San Francisco, CA",
             "fulltime_or_parttime": "Part-time",
@@ -76,7 +76,7 @@
         },
         {
             "id": 5,
-            "company_logo": "/src/assets/All Images/tesla-9 1.png",
+            "company_logo": "https://i.ibb.co/4mx0qjR/tesla-9-1.png",
             "job_title": "Marketing Manager",
             "company_name": "TESLA",
             "remote_or_onsite": "Onsite",
@@ -94,7 +94,7 @@
           },
           {
             "id": 6,
-            "company_logo": "/src/assets/All Images/google-1-1 1.png",
+            "company_logo": "https://i.ibb.co/d5dj6ZW/Career-Hub.png",
             "job_title": "Data Scientist",
             "company_name": "BrainStation 23",
             "remote_or_onsite": "Remote",

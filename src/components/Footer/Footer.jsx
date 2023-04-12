@@ -9,7 +9,7 @@ const Footer = () => {
                           <h1 className='font-bold text-2xl'>Career Finder</h1>
                            <p className='mt-5 md:w-2/4'>Taking steps towards achieving your desired profession and working towards your career goals.</p>
                           <div>
-                            <img className='mt-5 mx-auto md:mx-0' src="../../../src/assets/Icons/Group9969.png" alt="Icons" />
+                            <img className='mt-5 mx-auto md:mx-0' src="https://i.ibb.co/CsbLzLQ/Group9969.png" alt="Icons" />
                            </div>
                       </div>
                       <div className="grid md:grid-cols-4 sm:grid-cols-2 col-span-2 text-gray-300 gap-6 py-10  md:my-10">
