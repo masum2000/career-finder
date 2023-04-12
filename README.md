@@ -1,5 +1,5 @@
 <h1>Project Name: Career Finder</h1>
-<p>This is a single page project create by Modern React Js</p>
+<p>This is a single page project create with Modern React Js</p>
 <h2>Feature:</h2>
 <li>Header Section Different Type of option </li>
 <li>Different type of job category</li>
@@ -9,4 +9,5 @@
 <li>Stored the data in Applied Jobs </li>
 <li>Use different button for show the job type </li>
 <li>Use a  Pie chart</li>
+Live Link: https://career-finder.netlify.app/appliedJobs
        
