@@ -38,7 +38,7 @@
     },
     {
         "id": 3,
-        "company_logo": "https://i.ibb.co/WfNKT39/Group-10021.png",
+        "company_logo": "https://i.ibb.co/zswkcRT/amazon-png.png",
         "job_title": "Software Engineer",
         "company_name": "Amazon",
         "remote_or_onsite": "Remote",
@@ -58,9 +58,9 @@
     
         {
             "id": 4,
-            "company_logo": "https://i.ibb.co/CsbLzLQ/Group9969.png",
+            "company_logo": "https://i.ibb.co/k8Nprc7/meta.png",
             "job_title": "Software Engineer",
-            "company_name": "Facebook/Twitter",
+            "company_name": "Facebook/Meta",
             "remote_or_onsite": "Onsite",
             "location": "San Francisco, CA",
             "fulltime_or_parttime": "Part-time",
@@ -94,7 +94,7 @@
           },
           {
             "id": 6,
-            "company_logo": "https://i.ibb.co/d5dj6ZW/Career-Hub.png",
+            "company_logo": "https://i.ibb.co/7VHthF3/Brain-Station-Logo.png",
             "job_title": "Data Scientist",
             "company_name": "BrainStation 23",
             "remote_or_onsite": "Remote",

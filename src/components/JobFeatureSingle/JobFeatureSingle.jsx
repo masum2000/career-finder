@@ -11,12 +11,12 @@ const JobFeatureSingle = ({feature}) => {
          <div>
             
             <div className=' bg-gray-300 p-10 rounded space-y-5 shadow-xl mb-10 border border-purple-400 cursor-pointer hover:bg-purple-400'>
-                <img className='' src={company_logo} />
+                <img className='w-52' src={company_logo} />
                 <h2 className='font-bold text-xl'>{job_title}</h2>
                 <p>{company_name}</p>
                 <div className=''>
-                   <button className="  bg-gray-200 rounded md:p-1 p-1 border border-purple-400 text-purple-600 font-semibold">{remote_or_onsite}</button>
                    <button className="  bg-gray-200 rounded md:p-1 p-1 border border-purple-400 text-purple-600 font-semibold ml-3">{fulltime_or_parttime}</button>
+                   <button className="  bg-gray-200 rounded md:p-1 p-1 border border-purple-400 text-purple-600 font-semibold ml-3">{remote_or_onsite}</button>
                 </div>
                 <div className='flex gap-5'>
                    <div className='flex items-center gap-1'>
