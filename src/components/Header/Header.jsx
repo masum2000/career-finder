@@ -1,6 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
-import { ShoppingCartIcon } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -47,7 +46,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <button className=" bg-purple-600 text-white md:p-3 p-1 font-semibold rounded">Start Applying</button>
+          <button className=" bg-purple-600 hover:bg-green-600 hover:text-black text-white md:p-3 p-1 font-semibold rounded">Start Applying</button>
         </div>
       </div>
     </div>

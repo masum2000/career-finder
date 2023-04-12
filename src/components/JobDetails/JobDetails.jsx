@@ -21,7 +21,7 @@ const JobDetails = () => {
 
 
     return (
-        <div className=" md:w-9/12 mx-auto ">
+        <div className=" md:w-9/12 w-11/12 mx-auto ">
             <div>
             <h2 className='font-bold text-3xl text-center py-10'>Jobs Details</h2>
             </div>

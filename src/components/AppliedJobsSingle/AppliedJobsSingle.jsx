@@ -32,7 +32,7 @@ const AppliedJobsSingle = ({ job }) => {
                     </div>
                     <div className="md:col-span-1 col-span-5">
                         <Link to={`/${job.id}`}>
-                          <button className=" bg-purple-600 rounded md:p-3 p-1 mt-4 text-white font-semibold">View Details</button>
+                          <button className=" bg-purple-600 rounded md:p-3 p-1 mt-4 text-white font-semibold hover:bg-green-600 hover:text-black">View Details</button>
                         </Link>
                     </div>
                 </div>

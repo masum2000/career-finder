@@ -30,7 +30,7 @@ const JobFeature = () => {
                 }
             </div>
             <div className="text-center">
-            {!jobShowAll && <button className="bg-purple-600 rounded md:p-2 p-1 text-white font-semibold" onClick={handleSeeAllJobs}>See All Jobs</button>}
+            {!jobShowAll && <button className="bg-purple-600 rounded md:p-2 p-1 text-white font-semibold hover:bg-green-600 hover:text-black" onClick={handleSeeAllJobs}>See All Jobs</button>}
                 
             </div>
         </div>

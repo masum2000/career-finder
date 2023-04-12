@@ -31,7 +31,7 @@ const JobFeatureSingle = ({feature}) => {
                 {/* <Link to={`/${feature.id}`}>
                 <button className=" bg-purple-600 rounded mt-3 md:p-2 p-1 text-white font-semibold">View Details</button>
                 </Link> */}
-                <Link to={`/${feature.id}`}><button className=" bg-purple-600 rounded md:p-3 p-1 mt-4 text-white font-semibold">View Details</button></Link>
+                <Link to={`/${feature.id}`}><button className=" bg-purple-600 rounded md:p-3 p-1 mt-4 text-white font-semibold hover:bg-green-600 hover:text-black">View Details</button></Link>
                 
             </div>
         </div>
